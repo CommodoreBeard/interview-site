@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+    <ul class="list-group" id="results">
+      {% for item in items %}
+          <li class="list-group-item justify-content-between" id="result">{{ item['title'] }}<span class="badge badge-default badge-pill" id="price">{{ item['price'] }}</span>
+          </li>
+      {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block styles %}
+{{super()}}
+    <link rel="stylesheet" href="{{url_for('static', filename='error_page.css')}}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <div class="jumbotron">
+        <h1><span class="glyphicon glyphicon-fire red"></span> Error</h1>
+        <p class="lead">You can only search for 'iphone'</p>
+      </div>
+    </div>
+{%- endblock %}

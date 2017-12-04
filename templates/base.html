@@ -1,0 +1,13 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+{%- extends "bootstrap/base.html" %}
+
+{% block navbar %}
+{{nav.mynavbar.render()}}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        {% block page_content %}{% endblock %}
+    </div>
+{% endblock %}
