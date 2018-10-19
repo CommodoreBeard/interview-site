@@ -16,4 +16,4 @@
 - You have 90 minutes
 
 ## Site Location
-The site is running here: http://35.230.138.50/
+The site is running here: [HERE](http://35.230.138.50/)
