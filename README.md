@@ -14,3 +14,6 @@
 - Write a test and framework that will automatically verify the Scenario described above
 - Consider framework maintainability
 - You have 90 minutes
+
+## Site Location
+The site is running here: http://35.230.138.50/
